@@ -32,6 +32,17 @@ Hotstring("EndChars", " ")
 
 
 ;
+;--- GERMAN ACCENTS ---
+;
+#IfWinActive
+:O?:::a::ä
+:O?:::o::ö
+:O?:::u::ü
+;
+:O?:==ss::ß
+
+
+;
 ;--- CLICK THE NEXT" BUTTON IN ROSETTA STONE ---
 ;
 #IfWinActive, Welcome to Rosetta Stone!

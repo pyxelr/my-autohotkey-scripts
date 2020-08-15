@@ -4,7 +4,7 @@ The scripts I am using with AutoHotkey macro program for Windows to automate ted
 ## List of scripts
 
 Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) file:
-1. **French Accents** <--- easily type French accents without the use of a French keyboard layout (physical or digital) 
+1. **French Accents** <--- easily type French accents without the use of a French keyboard layout (physical or digital)
 	- ✅ The script works in any input field, such as in the browser or the notepad application
 	- ⌨ For example, you can insert:
 		- ç by typing `,,c` and hitting `SPACE`
@@ -13,12 +13,17 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 		- ê by typing `^^e` and hitting `SPACE`
 		- ë by typing `""e` and hitting `SPACE`
 		- œ by typing `==oe` and hitting `SPACE`.
-2. **Click the *"Next"* button inside Rosetta Stone** <--- script I use to rapidly click the *"Next"* button in the bottom right corner of the Rosetta Stone web application after pressing `Ctrl`
+2. **German Accents** <--- easily type German accents without the use of a German keyboard layout (physical or digital)
+	- ✅ The script works in any input field, such as in the browser or the notepad application
+	- ⌨ For example, you can insert:
+		- ä by typing `::c` and hitting `SPACE`
+		- ß by typing `==ss` and hitting `SPACE`.
+3. **Click the *"Next"* button inside Rosetta Stone** <--- script I use to rapidly click the *"Next"* button in the bottom right corner of the Rosetta Stone web application after pressing `Ctrl`
 	- ⚠ It only works when the browser tab window is titled *"Welcome to Rosetta Stone!"*. You might also need to adjust the `X` and `Y` coordinates of where the mouse cursor has to click the button. You can help yourself with [one of these examples](https://www.autohotkey.com/docs/commands/MouseGetPos.htm) to get the exact cursor position
 	- 🎮 I advise you to use [antimicro](https://github.com/AntiMicro/antimicro) app to map `Ctrl` to a specific button on your controller (such as the wireless Xbox one), so you can lean back on your chair while studying a new language. The mouse movement and LMB can also be assigned to other buttons on your controller for making it possible to select different answers on your screen. Of course, you only won't be able to complete the exercises that require to type something on your keyboard.
-3. **SoundCloud/YouTube Downloader** <--- autocompletion (hotstring) that I'm using to type a long command inside my terminal quickly
+4. **SoundCloud/YouTube Downloader** <--- autocompletion (hotstring) that I'm using to type a long command inside my terminal quickly
 	- ⚠ You need to have Python and [youtube-dl](https://github.com/ytdl-org/youtube-dl) installed in order for the script to work. [SoundScrape](https://github.com/Miserlou/SoundScrape) is also required as the alternative library
-	- ⚠ It only works in the classic *Command Prompt* window or the [*ConEmu64*](https://conemu.github.io/) window (suggested). Of course, you can extend it by adding more window classes 
+	- ⚠ It only works in the classic *Command Prompt* window or the [*ConEmu64*](https://conemu.github.io/) window (suggested). Of course, you can extend it by adding more window classes
 	- ⌨ This script supports the following hotstrings:
 		- `yt` followed by `SPACE` will autocomplete a command to which you only have to paste a SoundCloud song link. The song will include all the metadata and have an embedded thumbnail
 			- `sc` followed by `SPACE` uses a similar but less effective function through the SoundScrape library
