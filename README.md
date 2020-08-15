@@ -16,7 +16,7 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 2. **German Accents** <--- easily type German accents without the use of a German keyboard layout (physical or digital)
 	- ✅ The script works in any input field, such as in the browser or the notepad application
 	- ⌨ For example, you can insert:
-		- ä by typing `::c` and hitting `SPACE`
+		- ä by typing `::a` and hitting `SPACE`
 		- ß by typing `==ss` and hitting `SPACE`.
 3. **Click the *"Next"* button inside Rosetta Stone** <--- script I use to rapidly click the *"Next"* button in the bottom right corner of the Rosetta Stone web application after pressing `Ctrl`
 	- ⚠ It only works when the browser tab window is titled *"Welcome to Rosetta Stone!"*. You might also need to adjust the `X` and `Y` coordinates of where the mouse cursor has to click the button. You can help yourself with [one of these examples](https://www.autohotkey.com/docs/commands/MouseGetPos.htm) to get the exact cursor position
