@@ -48,9 +48,9 @@ Hotstring("EndChars", " ")
 #IfWinActive, Welcome to Rosetta Stone!
 Ctrl::
 {
-    MouseGetPos X, Y    
+    MouseGetPos X, Y
     Click 1849, 1044 ; use WindowSpy to adjust numbers according to the window size. In this case, Chrome needs to be maximized on the upper screen
-    MouseMove,  %X%, %Y%
+    MouseMove, %X%, %Y%
 }
 return
 
