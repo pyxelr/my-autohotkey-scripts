@@ -60,5 +60,5 @@ return
 ;
 #If WinActive("ahk_class VirtualConsoleClass") || WinActive("ahk_class ConsoleWindowClass")
     ::yt::youtube-dl --add-metadata --embed-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
-    ::sc::soundscrape`
     ::ytm::youtube-dl --embed-thumbnail --audio-quality 320k --extract-audio --no-part --audio-format mp3 --add-metadata -o "%(uploader)s - %(title)s.%(ext)s"`
+    ::ytv::youtube-dl -f bestvideo -ciw --write-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
