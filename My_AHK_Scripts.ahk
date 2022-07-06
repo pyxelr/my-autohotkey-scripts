@@ -59,6 +59,6 @@ return
 ;--- SOUNDCLOUD/YOUTUBE DOWNLOADER ---
 ;
 #If WinActive("ahk_class CASCADIA_HOSTING_WINDOW_CLASS") || WinActive("ahk_class VirtualConsoleClass") || WinActive("ahk_class ConsoleWindowClass")
-    ::yt::youtube-dl --add-metadata --embed-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
-    ::ytm::youtube-dl --embed-thumbnail --audio-quality 320k --extract-audio --no-part --audio-format mp3 --add-metadata -o "%(uploader)s - %(title)s.%(ext)s"`
-    ::ytv::youtube-dl -f bestvideo -ciw --write-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
+    ::yt::yt-dlp --add-metadata --embed-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
+    ::ytm::yt-dlp --embed-thumbnail --audio-quality 320k --extract-audio --no-part --audio-format mp3 --add-metadata -o "%(uploader)s - %(title)s.%(ext)s"`
+    ::ytv::yt-dlp -f bestvideo -ciw --write-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`

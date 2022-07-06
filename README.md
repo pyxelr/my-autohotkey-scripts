@@ -22,11 +22,11 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 	- ⚠ It only works when the browser tab window is titled *"Welcome to Rosetta Stone!"*. You might also need to adjust the `X` and `Y` coordinates of where the mouse cursor has to click the button. You can help yourself with [one of these examples](https://www.autohotkey.com/docs/commands/MouseGetPos.htm) to get the exact cursor position
 	- 🎮 I advise you to use [antimicro](https://github.com/AntiMicro/antimicro) app to map `Ctrl` to a specific button on your controller (such as the wireless Xbox one), so you can lean back on your chair while studying a new language. The mouse movement and LMB can also be assigned to other buttons on your controller for making it possible to select different answers on your screen. Of course, you only won't be able to complete the exercises that require to type something on your keyboard.
 4. **SoundCloud/YouTube Downloader** <--- autocompletion (hotstring) that I'm using to quickly type a long command inside my terminal to download audio/video
-	- ⚠ You need to have Python and [youtube-dl](https://github.com/ytdl-org/youtube-dl) installed in order for the script to work
+	- ⚠ You need to have Python and [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed in order for the script to work
 	- ⚠ It only works in the specified windows: [Windows Terminal](https://github.com/microsoft/terminal), [ConEmu64](https://conemu.github.io/) or [cmd.exe](https://en.wikipedia.org/wiki/Cmd.exe). Of course, you can extend it by adding more window classes
 	- ⌨ This script supports the following hotstrings:
-		- `yt` followed by `SPACE` will autocomplete a `youtube-dl` command to which you only have to paste a SoundCloud song link. The downloaded song will include all the metadata with an embedded thumbnail
-		- `ytv` followed by `SPACE` will autocomplete a `youtube-dl` command to which you only have to paste the YouTube video link. It will use the best possible video quality and write down its thumbnail to a separate file
+		- `yt` followed by `SPACE` will autocomplete a `yt-dlp` command to which you only have to paste a SoundCloud song link. The downloaded song will include all the metadata with an embedded thumbnail
+		- `ytv` followed by `SPACE` will autocomplete a `yt-dlp` command to which you only have to paste the YouTube video link. It will use the best possible video quality and write down its thumbnail to a separate file
 			- `ytm` is similar, but will only download extracted audio in 320 kbps mp3 format.
 			
 
