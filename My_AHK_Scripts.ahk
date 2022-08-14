@@ -3,6 +3,11 @@ Hotstring("EndChars", " ")
 
 
 ;
+;--- EMOJI KEYBOARD SHORTCUT ---
+;
+RControl::Send #.
+
+;
 ;--- FRENCH ACCENTS ---
 ;
 #IfWinActive
