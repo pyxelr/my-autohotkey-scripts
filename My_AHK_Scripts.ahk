@@ -1,7 +1,6 @@
 ﻿;--- TRIGGER HOTSTRINGS BELOW ONLY WITH SPACE ENDCHAR ---
 Hotstring("EndChars", " ")
 
-
 ;
 ;--- EMOJI KEYBOARD SHORTCUT ---
 ;
@@ -40,7 +39,6 @@ F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 :O?:""y::ÿ
 ;
 
-
 ;
 ;--- GERMAN ACCENTS ---
 ;
@@ -50,7 +48,6 @@ F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 :O?:::u::ü
 ;
 :O?:==ss::ß
-
 
 ;
 ;--- CLICK THE NEXT" BUTTON IN ROSETTA STONE ---
@@ -63,7 +60,6 @@ Ctrl::
     MouseMove, %X%, %Y%
 }
 return
-
 
 ;
 ;--- SOUNDCLOUD/YOUTUBE DOWNLOADER ---
