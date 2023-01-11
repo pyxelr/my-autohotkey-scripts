@@ -7,6 +7,10 @@ Hotstring("EndChars", " ")
 ;
 RControl::Send #.
 
+;
+;--- CHANGE TEXT COLOR IN OBSIDIAN ---
+;
+F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 
 ;
 ;--- FRENCH ACCENTS ---

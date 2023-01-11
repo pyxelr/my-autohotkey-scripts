@@ -7,6 +7,8 @@ The scripts I am using with AutoHotkey macro program for Windows to automate ted
 Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) file:
 
 1. **Emoji Keyboard Shortcut** <--- open emoji keyboard with `Right CTRL` (which triggers `Win` + `.` keyboard shortcut)
+1. **Change text color in Obsidian** <--- change text font color after highlighting the text and pressing `F12`
+   - This snippet requires defining the following rule within [Text Snippets](https://github.com/ArianaKhit/text-snippets-obsidian) plugin: `q : <font style="color: #858FB1">$end$</font>`
 1. **French Accents** <--- easily type French accents without the use of a French keyboard layout (physical or digital)
    - ✅ The script works in any input field, such as in the browser or the notepad application
    - ⌨ For example, you can insert
