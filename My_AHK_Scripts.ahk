@@ -14,7 +14,6 @@ F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 ;
 ;--- FRENCH ACCENTS ---
 ;
-#IfWinActive
 :O?:````a::à
 :O?:^^a::â
 :O?:==ae::æ
@@ -42,7 +41,6 @@ F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 ;
 ;--- GERMAN ACCENTS ---
 ;
-#IfWinActive
 :O?:::a::ä
 :O?:::o::ö
 :O?:::u::ü
