@@ -9,6 +9,7 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 1. **Emoji Keyboard Shortcut** ← open emoji keyboard with `Right CTRL` (which triggers `Win` + `.` keyboard shortcut)
 1. **Change text color in Obsidian** ← change text font color after highlighting the text and pressing `F12`
    - This snippet requires defining the following rule within [Text Snippets](https://github.com/ArianaKhit/text-snippets-obsidian) plugin: `q : <font style="color: #858FB1">$end$</font>`
+1. **Special Characters** ← quickly insert a couple of handy special characters like `•`, `←` or `€`
 1. **French Accents** ← easily type French accents without the use of a French keyboard layout (physical or digital)
    - ✅ The script works in any input field, such as in the browser or the notepad application
    - ⌨ For example, you can insert

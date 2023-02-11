@@ -12,6 +12,22 @@ RControl::Send #.
 F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 
 ;
+;--- SPECIAL CHARACTERS ---
+;
+:O?:````dash::–
+:O?:````ldash::—
+:O?:````ellipsis::…
+:O?:````quote-pl::„”
+:O?:````quote-en::“”
+:O?:````bullet::•
+:O?:````bbullet::●
+:O?:````left::←
+:O?:````right::→
+:O?:````rbullet::➤
+:O?:````gbp::£
+:O?:````eur::€
+
+;
 ;--- FRENCH ACCENTS ---
 ;
 :O?:````a::à
