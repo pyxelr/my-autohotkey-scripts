@@ -40,6 +40,7 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 1. Download and install [AutoHotkey](https://www.autohotkey.com/) (only available for Windows).
    - alternatively, you may want to use the beauty of Python by wrapping AutoHotkey with the [Python ahk library](https://github.com/spyoungtech/ahk).
 1. Put the [AutoHotkey script from this repository](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) inside the installation folder, such as `C:\Program Files\AutoHotkey`.
+   - ideally, save the file with "UTF-8 with BOM" encoding to prevent the output of any weird characters.
 1. Run the script by double-clicking the file and start saving a lot of time!
    - optionally, you can follow [these 3 simple steps](https://www.autohotkey.com/docs/FAQ.htm#Startup) to make sure that your script runs every time you turn on your PC.
 

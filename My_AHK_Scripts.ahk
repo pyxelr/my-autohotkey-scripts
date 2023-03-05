@@ -24,6 +24,7 @@ F12::Send {LControl down}x{LControl up}q{LControl down}{tab}v{LControl up}
 :O?:````left::←
 :O?:````right::→
 :O?:````rbullet::➤
+:O?:````tick::✓
 :O?:````gbp::£
 :O?:````eur::€
 
