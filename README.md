@@ -1,12 +1,12 @@
-# My AutoHotkey Scripts
+# My AutoHotkey v2 Scripts
 
-The scripts I am using with AutoHotkey macro program for Windows to automate tedious tasks on my computer.
+The scripts I am using with AutoHotkey v2 macro program for Windows to automate tedious tasks on my computer.
 
 ## List of scripts
 
 Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) file:
 
-1. **Emoji Keyboard Shortcut** ← open emoji keyboard with `Right CTRL` (which triggers `Win` + `.` keyboard shortcut)
+1. **Emoji Keyboard Shortcut** ← open emoji keyboard with `Right ALT` (which triggers `Win` + `.` keyboard shortcut)
 1. **Change text color in Obsidian** ← change text font color after highlighting the text and pressing `F12`
    - This snippet requires defining the following rule within [Text Snippets](https://github.com/ArianaKhit/text-snippets-obsidian) plugin: `q : <font style="color: #858FB1">$end$</font>`
 1. **Special Characters** ← quickly insert a couple of handy special characters like `•`, `←` or `€`
@@ -22,7 +22,7 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 1. **German Accents** ← easily type German accents without the use of a German keyboard layout (physical or digital)
    - ✅ The script works in any input field, such as in the browser or the notepad application
    - ⌨ For example, you can insert:
-   - ä by typing `::a` and hitting `SPACE`
+   - ä by typing `""a` and hitting `SPACE`
    - ß by typing `==ss` and hitting `SPACE`.
 1. **Click the *"Next"* button inside Rosetta Stone** ← script I use to rapidly click the *"Next"* button in the bottom right corner of the Rosetta Stone web application after pressing `Ctrl`
    - ⚠ It only works when the browser tab window is titled *"Welcome to Rosetta Stone!"*. You might also need to adjust the `X` and `Y` coordinates of where the mouse cursor has to click the button. You can help yourself with [one of these examples](https://www.autohotkey.com/docs/commands/MouseGetPos.htm) to get the exact cursor position
