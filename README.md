@@ -1,6 +1,6 @@
 # My AutoHotkey v2 Scripts
 
-The scripts I am using with AutoHotkey v2 macro program for Windows to automate tedious tasks on my computer.
+The scripts I am using with AutoHotkey macro program for Windows to automate tedious tasks on my computer.
 
 ## List of scripts
 
@@ -37,7 +37,7 @@ Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.co
 
 ## Installation
 
-1. Download and install [AutoHotkey](https://www.autohotkey.com/) (only available for Windows).
+1. Download and install [AutoHotkey v2.0](https://www.autohotkey.com/) (only available for Windows).
    - alternatively, you may want to use the beauty of Python by wrapping AutoHotkey with the [Python ahk library](https://github.com/spyoungtech/ahk).
 1. Put the [AutoHotkey script from this repository](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) inside the installation folder, such as `C:\Program Files\AutoHotkey`.
    - ideally, save the file with "UTF-8 with BOM" encoding to prevent the output of any weird characters.
