@@ -6,7 +6,7 @@ Hotstring("EndChars", " ")
 ;--- EMOJI KEYBOARD SHORTCUT ---
 ;
 
-~RCtrl::Send '#.'
+RCtrl::Send '#.'
 
 ;
 ;--- CHANGE TEXT COLOR IN OBSIDIAN ---
