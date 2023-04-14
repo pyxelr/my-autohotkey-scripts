@@ -6,7 +6,7 @@ The scripts I am using with AutoHotkey macro program for Windows to automate ted
 
 Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) file:
 
-1. **Emoji Keyboard Shortcut** ← open emoji keyboard with `Right ALT` (which triggers `Win` + `.` keyboard shortcut)
+1. **Emoji Keyboard Shortcut** ← open emoji keyboard with `Right Ctrl` (which triggers `Win` + `.` keyboard shortcut)
 1. **Change text color in Obsidian** ← change text font color after highlighting the text and pressing `F12`
    - This snippet requires defining the following rule within [Text Snippets](https://github.com/ArianaKhit/text-snippets-obsidian) plugin: `q : <font style="color: #858FB1">$end$</font>`
 1. **Special Characters** ← quickly insert a couple of handy special characters like `•`, `←` or `€`
