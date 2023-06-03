@@ -14,6 +14,7 @@ RCtrl::Send '#.'
 
 #HotIf WinActive("ahk_exe Obsidian.exe")
     F12::Send("{LCtrl down}x{LCtrl up}q{LCtrl down}{tab}v{LCtrl up}")
+#HotIf
 
 ;
 ;--- SPECIAL CHARACTERS ---
@@ -82,6 +83,7 @@ RCtrl::Send '#.'
             MouseMove(X, Y)
         }
     return
+#HotIf
 
 ;
 ;--- SOUNDCLOUD/YOUTUBE DOWNLOADER ---
@@ -91,3 +93,4 @@ RCtrl::Send '#.'
     ::yt::yt-dlp --add-metadata --embed-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
     ::ytm::yt-dlp --embed-thumbnail --audio-quality 320k --extract-audio --no-part --audio-format mp3 --add-metadata -o "%(uploader)s - %(title)s.%(ext)s"`
     ::ytv::yt-dlp -f bestvideo -ciw --write-thumbnail -o "%(uploader)s - %(title)s.%(ext)s"`
+#HotIf
