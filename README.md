@@ -5,7 +5,7 @@ The scripts I am using with AutoHotkey macro program for Windows to automate ted
 ## List of scripts
 
 > [!NOTE]  
-> _On 2023/12/26, I have moved some scripts (marked with ✴️) into [espanso](https://github.com/espanso/espanso) (cross-platform tool with simpler syntax and integrated search bar)._
+> _On 2023/12/26, I have moved some scripts (marked with ✴️) into [my-espanso-config](https://github.com/pyxelr/my-espanso-config)._
 
 Currently included list of scripts inside [My_AHK_Scripts.ahk](https://github.com/pyxelr/My_AutoHotkey_Scripts/blob/master/My_AHK_Scripts.ahk) file:
 
